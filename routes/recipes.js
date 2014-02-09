@@ -4,7 +4,7 @@
  */
 var mongoose = require('mongoose');
  	
-mongoose.connect('mongodb://recipe:recipe@dbh08.mongolab.com:27087/recipe'); 
+mongoose.connect('localhost:27087/recipe'); 
 
 mongoose.connection.once('connected', function() {
 	console.log("Connected to database");
