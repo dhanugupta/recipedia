@@ -6,7 +6,7 @@ A complete sample project for software engineers demonstrating the basics of RES
 #Author
 
 Dhanu Gupta is a Software Engineer.
-
+<a href="http://dhanugupta.com" title="dhanu gupta">website</a>
 #Contents
 
 /node_modules - all dependencies for tutorial <br>
@@ -18,7 +18,12 @@ app.js - central app file for tutorial project <br>
 package.json - package info for tutorial project <br>
 
 
+## Mongo Database Change
+
+Testing purpose you can use this Mongoose Connection:mongodb://recipe:recipe@dbh08.mongolab.com:27087/recipe
+
 ## Usage
+
 
 Recipe Database as an example for REST API: <br>
 Testing the API using cURL<br>
