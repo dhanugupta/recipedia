@@ -1,6 +1,6 @@
 # Recipedia
 
-Creating a Simple REST Web App with Node.js, Express, EJS Templating and Mongoose [ Mongodb]
+Creating a Simple REST Web App with Node.js, Express, EJS Templating and Mongoose [ Mongodb] <br>
 A complete sample project for software engineers demonstrating the basics of REST and using them to build an easy, fast, single-page web app.
 
 Author
@@ -9,8 +9,8 @@ Dhanu Gupta is a Software Engineer.
 
 Contents
 
-/node_modules - all dependencies for tutorial
-/public - static directories suchs as /images
+/node_modules - all dependencies for tutorial <br>
+/public - static directories suchs as /images<br>
 /routes - route files for tutorial project
 /views - views for tutorial project
 README.md - this file
