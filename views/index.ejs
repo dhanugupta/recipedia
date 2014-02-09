@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
+    <script src='/js/main.js'></script>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to Recipedia :)</p>
+    <div id="wrapper">
+    <div id="recipeInfo">
+    	<h2>Recipe Info</h2>
+    		<p>
+    			<strong>Recipe Name</strong> : <span id='recipeName'></span> <br>
+    			<strong>Recipe Description</strong> : <span id='recipeDesc'></span> <br>
+    			<strong>Recipe Image</strong> : <span id='recipeImg'></span> <br>
+    			<strong>Recipe Directions</strong> : <span id='recipeDirections'></span> <br>
+    			<strong>Recipe Provided By</strong> : <span id='recipeProvidedBy'></span> <br>
+    		</p>
+    </div>
+    <div id="recipeList">
+    	<table>
+    		<thead>
+    			<th>Name</th>
+    			<th>Description</th>
+    			<th>Delete?</th>
+    		</thead>
+    		<tbody></tbody>
+    	</table>
+    </div>
+    
+    <div id="addRecipe">
+    	<h2>ADD Recipe</h2>
+    	<fieldset>
+    		<label> Recipe Name </label><input type="text" name="recipeName" id="recipeName" value=""/> <br>
+    		<label> Recipe Description </label><input type="text" name="recipeDesc" id="recipeDesc" value=""/> <br>
+    		<label> Recipe Directions </label><textarea name="recipeDirections" id="recipeDirections"></textarea>  <br>
+    		<input type="button" id="recipeAdd" value="ADD"/>
+    		
+    	</fieldset>
+    </div>
+    </div>
+  </body>
+</html>
